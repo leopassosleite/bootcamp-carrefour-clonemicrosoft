@@ -95,7 +95,6 @@ header nav a:hover {
 }
 
 /*Section GamePass*/
-
 .movie-main {
     margin-top: -30px;
     margin-bottom: 10px;
@@ -180,4 +179,23 @@ header nav a:hover {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('/img/halloInfinite__.jpg');
     background-size: cover;
     width: 100%;
+}
+
+/*Carousel*/
+.carousel-movies {
+    margin-top: -80px;
+    margin-left: 40px;
+}
+
+.carousel-movies h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    margin-left: 400px;
+}
+
+.box-movie {
+    height: 50%;
+    width: 50%;
+    display: flex;
 }
