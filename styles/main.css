@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 5px;
+}
+
+body {
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.logo {
+    color: var(--red);
+    font-family: 'Arial';
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+
+header nav a {
+    color: rgb(255, 255, 255);
+    margin: auto -20px;
+    margin-top: -85px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: rgb(126, 126, 126);
+
+}
+
+.nav-item {
+    font-size: 18px;
+    margin-top: -88px;
+}
+
+.nav-item i {
+    margin-right: 8px;
+}
+
+.itemb {
+    margin-top: -85px;
+    margin-right: 60px;
+}
+
+.item-cart {
+    margin-right: 10px;
+}
+
+.app {
+    display: flex;
+    margin-left: -1250px;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.app h1 {
+    font-size: 16px;
+}
+
+.app h2 {
+    font-size: 18px;
+    color: rgba(19, 59, 0, 0.61)
+}
+
+.app .btn {
+    background-color: rgb(144, 243, 30);
+    border: none;
+    padding: 5px 40px;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 50px;
+    margin-top: -10px;
+}
